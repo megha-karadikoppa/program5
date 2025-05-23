@@ -12,6 +12,6 @@ public class Fibonacci {
             second = next;
         }
         System.out.println();
-        System.out.println("/n");
+        Runtime.getRuntime().exec("git add . && git commit -m \"Update\" && git push origin main");
     }
 }
